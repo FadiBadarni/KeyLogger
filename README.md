@@ -1,17 +1,36 @@
-# KeyLogger
-![alt text](https://i.ibb.co/8PZB62d/Key-Logger.png)
-## # Keystroke Logging Application
-### Motivation- 
-A keystroke application made with **Python** for the course "*Introduction To Cyber Security*".
-The application was built in order to understand the fundementals of Keyloggers and spying malware in general (***to monitor how a user interacts with their keyboard as a means of recording their behavior, usage, or personal information***).
-### Purpose-
-The application was built for **EDUCATIONAL** purposes only and in order to understand and learn how keyloggers can be built and what they do and how can they record everything from mouse movements to taking snapshots of the victim's screen.
-### General-
-This application is built using python and the GUI is constructed using tkinter.
-the application was extended so that it records everything according to the checklist found in the Graphical User Interface from mouse movements and until screenshots, the program also contains the ability to take random screenshots every given time (can be modified from main.py file).
-The program by default creates a file (If it does not exist already) called LOG in the C Drive and saves everything to it in sorted files e.g(Screenshots, keyboard movements, ..), this ability was enhanced so that the file creation can be skipped and all of the data can be sent to the wanted email that is set in the GUI settings which can be seen by hitting the button (**Fetch Current Settings**).
-Display Decoy is a picture that will be displayed upon opening the program in the victim's computer so that it covers for the fact that there is now a malicious program running in the background collecting info and keystrokes.
+# KeyLogger: A Keystroke Logging Application 🔑📝
 
-#### Future Plans
-Data Encryption Using Asymmetric Encryption Algorithms.
-Interface Change
+![KeyLogger Banner](https://i.ibb.co/8PZB62d/Key-Logger.png)
+
+## Overview 📖
+
+KeyLogger is a keystroke logging application built with Python for educational purposes, aiming to demonstrate the fundamentals of keyloggers and spying malware in general. The application records user interactions with their keyboard, mouse movements, and screen snapshots to study user behavior, usage, or personal information.
+
+> ⚠️ **Disclaimer**: This application is for educational purposes only. Do not use it to monitor or collect personal information without the user's consent.
+
+## Features 🌟
+
+- Built with Python and tkinter for GUI
+- Records mouse movements, keyboard strokes, and screen snapshots
+- Configurable random screen capture intervals
+- Stores data in organized directories (e.g., Screenshots, keyboard movements, etc.)
+- Supports sending recorded data to a designated email address
+- Displays a decoy image upon starting the program to cover its activities
+
+## Future Plans 🚀
+
+- Implement data encryption using asymmetric encryption algorithms
+- Revamp the user interface
+
+## Getting Started 🏁
+
+To set up and run the KeyLogger application:
+
+1. Clone this repository to your local machine.
+2. Install the required dependencies (refer to `requirements.txt`).
+3. Configure the settings in `main.py`, such as email address, screen capture intervals, etc.
+4. Run the `main.py` script using your preferred IDE or the command line.
+
+## Contributing 🤝
+
+Contributions are welcome! Please open an issue first to discuss any major changes you'd like to propose. Don't forget to update tests as appropriate.
